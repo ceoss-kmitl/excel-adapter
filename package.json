@@ -1,0 +1,32 @@
+{
+  "name": "@ceoss-kmitl/excel-adapter",
+  "version": "1.0.3",
+  "description": "Adapter package for easy using exceljs in ceoss-kmitl",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "https://github.com/ceoss-kmitl/excel-adapter.git",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "lint": "eslint src/**/*.ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.28.2",
+    "@typescript-eslint/parser": "4.28.2",
+    "eslint": "7.30.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "prettier": "2.3.2",
+    "tsconfig-paths": "3.10.1",
+    "typescript": "4.3.5"
+  },
+  "dependencies": {
+    "exceljs": "4.2.1"
+  }
+}
